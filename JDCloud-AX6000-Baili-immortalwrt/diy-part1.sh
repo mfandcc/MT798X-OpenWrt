@@ -20,6 +20,3 @@
 
 # git clone https://github.com/gdy666/luci-app-lucky package/lucky
 # git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-
-sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
-git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
